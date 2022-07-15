@@ -1,2 +1,2 @@
 # github-actions
-CI/CD with github actions kjsd iudskj
+CI/CD with github actions!
