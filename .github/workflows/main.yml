@@ -13,4 +13,4 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        script: bash ~/website/portfolio-site/create.sh
+        script: bash /root/website/portfolio-site/create.sh
