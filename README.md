@@ -1,2 +1,2 @@
 # github-actions
-Testing github actions
+CI/CD with github actions
