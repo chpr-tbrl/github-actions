@@ -13,4 +13,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        script: bash /root/website/portfolio-site/create.sh
+        script: |
+          cd website/portfolio-site
+          touch "$(date +"%Y_%m_%d_%I_%M_%p").txt"
